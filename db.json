@@ -1,0 +1,1316 @@
+{
+  "sectors": [
+    {
+      "name": "Informatique",
+      "jobs": [
+        {
+          "name": "Développeur",
+          "skills": [
+            "Angular",
+            "CSS",
+            "HTML",
+            "Java",
+            "Javascript",
+            "React",
+            "Php",
+            "Spring",
+            "JEE"
+          ]
+        },
+        {
+          "name": "DevOps",
+          "skills": [
+            "Jenkins",
+            "Docker",
+            "Kubernetes",
+            "Git",
+            "Maven",
+            "Nexus",
+            "AWS"
+          ]
+        },
+        {
+          "name": "Chef de projet",
+          "skills": [
+            "Jira",
+            "Microsoft Project",
+            "Excel",
+            "Spring",
+            "Angular",
+            "React"
+          ]
+        },
+        {
+          "name": "Product Owner",
+          "skills": [
+            "Jira",
+            "SCRUM"
+          ]
+        },
+        {
+          "name": "Scrum master",
+          "skills": [
+            "Méthodes agiles",
+            "SCRUM",
+            "Kanban",
+            "Jira"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commerce",
+      "jobs": [
+        {
+          "name": "Caissier",
+          "skills": [
+            "Calcul mental",
+            "Vente"
+          ]
+        },
+        {
+          "name": "Vendeur",
+          "skills": [
+            "Vente",
+            "Marketing"
+          ]
+        },
+        {
+          "name": "Chef de rayon",
+          "skills": ["Vente", "Gestion des stocks", "Facturation"]
+        },
+        {
+          "name": "Assistant commercial",
+          "skills": ["Comptabilité", "Finance", "Marketing"]
+        },
+        {
+          "name": "Directeur de magasin",
+          "skills": ["RH", "Finance", "Marketing"]
+        }
+      ]
+    },
+    {
+      "name": "Communication",
+      "jobs": [
+        {
+          "name": "Attaché de presse",
+          "skills": ["Stratégie", "Pilotage", "Rédaction", "Organisation"]
+        },
+        {
+          "name": "Community manager",
+          "skills": ["Rédaction", "Veille", "Stratégie", "Réseaux sociaux"]
+        },
+        {
+          "name": "Designer",
+          "skills": ["Graphisme", "Photoshop", "UX", "Design"]
+        },
+        {
+          "name": "Maquettiste",
+          "skills": ["Graphisme", "Photoshop", "Sketch"]
+        },
+        {
+          "name": "Chargé de com",
+          "skills": ["Rédaction", "Communication"]
+        }
+      ]
+    },
+    {
+      "name": "Industrie",
+      "jobs": [
+        {
+          "name": "Ingénieur d’étude",
+          "skills": ["Maths", "Physique", "Gestion"]
+        },
+        {
+          "name": "Dessinateur industriel",
+          "skills": ["Autocad", "Design", "Maths"]
+        },
+        {
+          "name": "Directeur de production",
+          "skills": ["Gestion", "Supply chain"]
+        },
+        {
+          "name": "Électricien",
+          "skills": ["Physique", "Electronique", "Installation"]
+        },
+        {
+          "name": "Technicien",
+          "skills": ["Support", "Physique", "Mécanique", "Matériaux"]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "creationDate": "2020-11-19",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skills": [
+        "HTML",
+        "Angular"
+      ],
+      "level": "JUNIOR",
+      "questions": [
+        {
+          "id": "2",
+          "creationDate": "2020-11-19",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "Angular",
+          "type": "SINGLE",
+          "title": "Parmi les propositions suivantes, laquelle n'est pas une directive structurelle d'Angular ?",
+          "score": 2,
+          "level": "JUNIOR",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "ngIf",
+              "valid": false
+            },
+            {
+              "id": 2,
+              "text": "ngFor",
+              "valid": false
+            },
+            {
+              "id": 3,
+              "text": "ngSwitch",
+              "valid": false
+            },
+            {
+              "id": 4,
+              "text": "ngUnless",
+              "valid": true
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "creationDate": "2020-11-19",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "HTML",
+          "type": "SINGLE",
+          "title": "En HTML, quel élément permet de créer une liste déroulante ?",
+          "score": 2,
+          "level": "JUNIOR",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "<select>",
+              "valid": true
+            },
+            {
+              "id": 2,
+              "text": "<option>",
+              "valid": false
+            },
+            {
+              "id": 3,
+              "text": "<input type=\"dropdown\">",
+              "valid": false
+            },
+            {
+              "id": 4,
+              "text": "<dropdown>",
+              "valid": false
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "creationDate": "2020-11-19",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "CSS",
+          "type": "MULTIPLE",
+          "title": "Décrivez un élément auquel on aurait associé la classe CSS suivante:\n.example {\n    display: block;\n    width: 50%;\n    background: blue;\n    margin: 10px auto;\n    border: solid 3px rgba(255,100,100,0);\n    background-color: #A00;\n}\nPlusieurs réponses sont attendues.",
+          "score": 3,
+          "level": "SENIOR",
+          "timeout": 60,
+          "responses": [
+            {
+              "id": 1,
+              "text": "fond bleu",
+              "valid": false
+            },
+            {
+              "id": 2,
+              "text": "fond rouge",
+              "valid": true
+            },
+            {
+              "id": 3,
+              "text": "centré horizontalement",
+              "valid": true
+            },
+            {
+              "id": 4,
+              "text": "centré verticalement",
+              "valid": false
+            },
+            {
+              "id": 5,
+              "text": "bordure rouge clair",
+              "valid": false
+            },
+            {
+              "id": 6,
+              "text": "bordure transparente",
+              "valid": true
+            },
+            {
+              "id": 7,
+              "text": "texte bleu",
+              "valid": false
+            },
+            {
+              "id": 8,
+              "text": "Ces règles CSS sont invalides",
+              "valid": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "creationDate": "2020-11-19",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skills": [
+        "Angular",
+        "CSS"
+      ],
+      "level": "JUNIOR",
+      "questions": [
+        {
+          "id": "5",
+          "creationDate": "2020-11-23",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "Angular",
+          "type": "SINGLE",
+          "title": "Dans une application Angular, les données peuvent être passées du parent à l'enfant en utilisant... ",
+          "score": 1,
+          "level": "JUNIOR",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "@Output()",
+              "valid": false
+            },
+            {
+              "id": 2,
+              "text": "@Input()",
+              "valid": true
+            },
+            {
+              "id": 3,
+              "text": "Output",
+              "valid": false
+            },
+            {
+              "id": 4,
+              "text": "Input",
+              "valid": false
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "creationDate": "2020-11-23",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "Angular",
+          "type": "SINGLE",
+          "title": "Dans une application Angular, les données peuvent être passées de l'enfant vers le parent en utilisant... ",
+          "score": 1,
+          "level": "JUNIOR",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "@Output()",
+              "valid": true
+            },
+            {
+              "id": 2,
+              "text": "@Input()",
+              "valid": false
+            },
+            {
+              "id": 3,
+              "text": "Output",
+              "valid": false
+            },
+            {
+              "id": 4,
+              "text": "Input",
+              "valid": false
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "creationDate": "2020-11-23",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "Angular",
+          "type": "SINGLE",
+          "title": "Quel caractère utilise-t'on pour référencer un élément HTML dans un template Angular ?",
+          "score": 1,
+          "level": "JUNIOR",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "@",
+              "valid": false
+            },
+            {
+              "id": 2,
+              "text": "#",
+              "valid": true
+            },
+            {
+              "id": 3,
+              "text": "*",
+              "valid": false
+            },
+            {
+              "id": 4,
+              "text": "&",
+              "valid": false
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "creationDate": "2020-11-23",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Informatique",
+          "job": "Développeur",
+          "skill": "Angular",
+          "type": "SINGLE",
+          "title": "Que retourne la fonction Typescript ci-dessous ?\n\nfunction f(input: boolean) {\n    let a = 100;\n\n    if (input) {\n        let b = a + 1;\n        return b;\n    }\n    return b;\n}",
+          "score": 2,
+          "level": "CONFIRMED",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "Undefined",
+              "valid": false
+            },
+            {
+              "id": 2,
+              "text": "101",
+              "valid": false
+            },
+            {
+              "id": 3,
+              "text": "Erreur de compilation pour a ",
+              "valid": false
+            },
+            {
+              "id": 4,
+              "text": "Erreur de compilation pour b",
+              "valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "creationDate": "2020-11-19",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Commerce",
+      "job": "Caissier",
+      "skills": [
+        "Calcul mental",
+        "Vente"
+      ],
+      "level": "JUNIOR",
+      "questions": [
+        {
+          "id": "18",
+          "creationDate": "2020-12-09",
+          "modificationDate": "",
+          "creatorId": "",
+          "reviserId": "",
+          "sector": "Commerce",
+          "job": "Caissier",
+          "skill": "Calcul mental",
+          "type": "SINGLE",
+          "title": "128 + 12 +60 = ?",
+          "score": 1,
+          "level": "JUNIOR",
+          "timeout": 30,
+          "responses": [
+            {
+              "id": 1,
+              "text": "190",
+              "valid": false
+            },
+            {
+              "id": 2,
+              "text": "210",
+              "valid": false
+            },
+            {
+              "id": 3,
+              "text": "200",
+              "valid": true
+            },
+            {
+              "id": 4,
+              "text": "202",
+              "valid": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "creationDate": "2020-11-19",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "CSS",
+      "type": "MULTIPLE",
+      "level": "SENIOR",
+      "score": 3,
+      "timeout": 45,
+      "title": "Décrivez un élément auquel on aurait associé la classe CSS suivante:\n```\n.example {\n    display: block;\n    width: 50%;\n    background: blue;\n    margin: 10px auto;\n    border: solid 3px rgba(255,100,100,0);\n    background-color: #A00;\n}\n```\nPlusieurs réponses sont attendues.",
+      "responses": [
+        {
+          "id": 1,
+          "text": "fond bleu",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "fond rouge",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "centré horizontalement",
+          "valid": true
+        },
+        {
+          "id": 4,
+          "text": "centré verticalement",
+          "valid": false
+        },
+        {
+          "id": 5,
+          "text": "bordure rouge clair",
+          "valid": false
+        },
+        {
+          "id": 6,
+          "text": "bordure transparente",
+          "valid": true
+        },
+        {
+          "id": 7,
+          "text": "texte bleu",
+          "valid": false
+        },
+        {
+          "id": 8,
+          "text": "Ces règles CSS sont invalides",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "creationDate": "2020-11-19",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 2,
+      "timeout": 20,
+      "title": "Parmi les propositions suivantes, laquelle n'est pas une directive structurelle d'Angular ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "ngIf",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "ngFor",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "ngSwitch",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "ngUnless",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "creationDate": "2020-11-17",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "HTML",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 2,
+      "timeout": 20,
+      "title": "En HTML, quel élément permet de créer une liste déroulante ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "<select>",
+          "valid": true
+        },
+        {
+          "id": 2,
+          "text": "<option>",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "<input type=\"dropdown\">",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "<dropdown>",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "CONFIRMED",
+      "score": 2,
+      "timeout": 120,
+      "title": "Que retourne le programme Typescript ci-dessous ?\n```\nfunction f(input: boolean) {\n    let a = 100;\n\n    if (input) {\n        let b = a + 1;\n        return b;\n    }\n    return b;\n}\n```",
+      "responses": [
+        {
+          "id": 1,
+          "text": "Undefined",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "101",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "Erreur de compilation pour a ",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "Erreur de compilation pour b",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "title": "Dans une application Angular, les données peuvent être passées du parent à l'enfant en utilisant... ",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 30,
+      "responses": [
+        {
+          "id": 1,
+          "text": "@Output()",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "@Input()",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "Output",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "Input",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 30,
+      "title": "Dans une application Angular, les données peuvent être passées de l'enfant vers le parent en utilisant... ",
+      "responses": [
+        {
+          "id": 1,
+          "text": "@Output()",
+          "valid": true
+        },
+        {
+          "id": 2,
+          "text": "@Input()",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "Output",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "Input",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 30,
+      "title": "Quel caractère utilise-t'on pour référencer un élément HTML dans un template Angular ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "@",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "#",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "*",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "&",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 15,
+      "title": "Quel nom donne-t'on aux directives Angular modifiant le DOM ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "Structural directives",
+          "valid": true
+        },
+        {
+          "id": 2,
+          "text": "Attribute directives",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "CONFIRMED",
+      "score": 2,
+      "timeout": 60,
+      "title": "A quelle classe CSS un élément de formulaire modifié via [(NgModel)] est-il associé ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": ".ng-invalid ",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": ".ng-pending ",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": ".ng-pristine ",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": ".ng-dirty ",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "CONFIRMED",
+      "score": 2,
+      "timeout": 30,
+      "title": "Si vous déclarez le même service dans la section « providers » de deux composants Angular, combien d'instances de ce service seront-elles créées ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "Une",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "Deux",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "Trois",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "Quatre",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "MULTIPLE",
+      "level": "CONFIRMED",
+      "score": 2,
+      "timeout": 45,
+      "title": "Quels tags peut-on utiliser pour permettre l'affichage d'un composant activé dans une route Angular ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "<router></router>",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "<router-output></router-output>",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "<router-outlet name=\"sidebar\"></router-outlet>",
+          "valid": true
+        },
+        {
+          "id": 4,
+          "text": "<router-display></router-display>",
+          "valid": false
+        },
+        {
+          "id": 5,
+          "text": "<router-outlet></router-outlet>",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "CONFIRMED",
+      "score": 2,
+      "timeout": 60,
+      "title": "Quelle méthode de la classe RouterModule appelle-t'on dans le module principal pour fournir l'ensemble des routes d'une application Angular ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "RouterModule.forChild",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "RouterModule.forRoot",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "RouterModule",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "RouterModule.import",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 20,
+      "title": "Quelle commande utilise-t'on pour faire de l'analyse de code statique dans une application Angular ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "ng build",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "ng profile",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "ng lint",
+          "valid": true
+        },
+        {
+          "id": 4,
+          "text": "ng serve",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "creationDate": "2020-11-23",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "CONFIRMED",
+      "score": 2,
+      "timeout": 30,
+      "title": "Par quelle classe l'élément hôte est-il représenté dans le constructeur d'une directive Angular ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "Element",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "ElementRef",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "Host",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "Target",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "sector": "Informatique",
+      "job": "Développeur",
+      "skill": "Angular",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 30,
+      "title": "Parmi les propositions suivantes, laquelle est vraie ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "response 1",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "response 2",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "sector": "Informatique",
+      "job": "DevOps",
+      "skill": "Docker",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 30,
+      "title": "Quelle commande utilise-t-on pour instancier et exécuter un nouveau conteneur Docker?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "docker start",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "docker run",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "docker pull",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "docker new",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "sector": "Informatique",
+      "job": "DevOps",
+      "skill": "Docker",
+      "type": "SINGLE",
+      "level": "JUNIOR",
+      "score": 1,
+      "timeout": 30,
+      "title": "Quel est le nom du référentiel public d'images Docker ?",
+      "responses": [
+        {
+          "id": 1,
+          "text": "Github",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "Docker Hub",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "Docker Trusted Registry",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "Azure Marketplace",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "creationDate": "2020-12-09",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Commerce",
+      "job": "Caissier",
+      "skill": "Calcul mental",
+      "type": "SINGLE",
+      "title": "128 + 12 +60 = ?",
+      "score": 1,
+      "level": "JUNIOR",
+      "timeout": 30,
+      "responses": [
+        {
+          "id": 1,
+          "text": "190",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "210",
+          "valid": false
+        },
+        {
+          "id": 3,
+          "text": "200",
+          "valid": true
+        },
+        {
+          "id": 4,
+          "text": "202",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "creationDate": "2020-12-09",
+      "modificationDate": "",
+      "creatorId": "",
+      "reviserId": "",
+      "sector": "Commerce",
+      "job": "Caissier",
+      "skill": "Calcul mental",
+      "type": "SINGLE",
+      "title": "Le total est de 28.52 €. On me donne 40 €. Combien dois-je rendre ?",
+      "score": 1,
+      "level": "JUNIOR",
+      "timeout": 30,
+      "responses": [
+        {
+          "id": 1,
+          "text": "11,08",
+          "valid": false
+        },
+        {
+          "id": 2,
+          "text": "11,48",
+          "valid": true
+        },
+        {
+          "id": 3,
+          "text": "11,60",
+          "valid": false
+        },
+        {
+          "id": 4,
+          "text": "12",
+          "valid": false
+        }
+      ]
+    },
+    {
+      "id": "fwU7wRH"
+    },
+    {
+      "id": "jf10rHG"
+    },
+    {
+      "id": "ewXdMO_"
+    }
+  ],
+  "reports": [
+    {
+      "code": "QBS",
+      "label": "Nombre de questions par secteur",
+      "data": [
+        {
+          "sector": "Informatique",
+          "count": 212
+        },
+        {
+          "sector": "Commerce",
+          "count": 125
+        },
+        {
+          "sector": "Communication",
+          "count": 24
+        },
+        {
+          "sector": "Industrie",
+          "count": 89
+        }
+      ]
+    },
+    {
+      "code": "SDS",
+      "label": "Nombre de questions par compétence",
+      "data": [
+        {
+          "name": "Informatique",
+          "distribution": [
+            {
+              "skill": "Java",
+              "count": 42
+            },
+            {
+              "skill": "Javascript",
+              "count": 50
+            },
+            {
+              "skill": "Angular",
+              "count": 25
+            },
+            {
+              "skill": "HTML",
+              "count": 38
+            },
+            {
+              "skill": "CSS",
+              "count": 18
+            },
+            {
+              "skill": "React",
+              "count": 34
+            },
+            {
+              "skill": "Spring",
+              "count": 32
+            },
+            {
+              "skill": "JEE",
+              "count": 30
+            },
+            {
+              "skill": "PHP",
+              "count": 4
+            },
+            {
+              "skill": "NodeJS",
+              "count": 12
+            }
+          ]
+        },
+        {
+          "name": "Commerce",
+          "distribution": [
+            {
+              "skill": "Calcul mental",
+              "count": 12
+            },
+            {
+              "skill": "Vente",
+              "count": 34
+            },
+            {
+              "skill": "Marketing",
+              "count": 23
+            }
+          ]
+        },
+        {
+          "name": "Communication",
+          "distribution": []
+        },
+        {
+          "name": "Industrie",
+          "distribution": []
+        }
+      ]
+    }
+  ]
+}
